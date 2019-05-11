@@ -1,0 +1,14 @@
+{
+    "reader": "Reader_CSV",
+    "result": "Result_Shops",
+    "writer": "Writer_Print",
+    
+    "csvseparator": ";",
+
+    "imports": {
+        "name": [0],
+        "address": [1],
+        "gps_lat": [2],
+        "gps_lon": [3]
+    }
+}

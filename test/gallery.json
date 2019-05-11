@@ -1,0 +1,13 @@
+{
+    "reader": "Reader_HTML",
+    "result": "Result_Gallery",
+    "writer": "Writer_JSON",
+    
+    "main": "//div[@class='import']",
+    
+    "imports": {
+        "name": ["h1[@class='gallery-title']", "one", "innerText"],
+        "images": ["a", "attrib_href"],
+        "capions": ["a", "innerText"]
+    }
+}
